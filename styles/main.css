@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h3 {
+    font-size: 1.125rem;
+}
+h4 {
+    font-size: 1.125rem;
+}
+ul {
+    list-style-type:  none;
+    margin: 0;
+}
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 16px;
+    background-color: #36689E;
+    color: white;
+    font-weight: 500;
+}
+
+.header__container {
+    padding-top: 32px;
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+}
+
+.header__ul {
+    display: flex;
+    gap: 37px;
+}
+.header__btns {
+    margin-left: auto;
+}
+.header__logo {
+    margin-right: auto;
+}
+.header__btns__contact-btn {
+    margin-right: 29px;
+}  
+.hero__left-content {
+    padding-top: 207px;
+}
+.hero__left-content__description {
+    margin-bottom: 40px;
+}
+.hero__left-content__btns__btn {
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+.hero__left-content__btns__btn {
+    margin-right: 30px;
+}
+.hero__left-content__title {
+    font-size: 2.625rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.header__btns__contact-btn__link {
+    color: white;
+}
+.hero-about {
+    justify-content: center;
+    align-items: center;
+    gap: 9.3125rem;
+    padding: 28px 0;
+    box-shadow: 0px 12.347223281860352px 25.690000534057617px 0px rgba(54, 104, 158, 0.16);
+    border-radius: 0.90031rem;
+    padding: 20px 30px 20px 100px;
+}
+.hero-about__item {
+    text-align: center;
+}
+.hero-about__item__title {
+    font-weight: 700;
+    color: #36689E;
+}
+.hero-about__item__description {
+    font-weight: 400;
+    color: #000;
+    opacity: 0.5;
+}
+.hero-about__btn {
+    padding: 1.19rem 0.37rem;
+    border-radius: 0.32156rem;
+}
